@@ -1,0 +1,26 @@
+input {
+    font-size: 14px;
+    margin-left: 5px;
+}
+label {
+    font-size: 16px;
+}
+
+.second {
+    margin-left: 20px;
+}
+
+button {
+    margin-left: 15px;
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 4px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: .2s;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #000;
+}

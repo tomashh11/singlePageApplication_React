@@ -1,0 +1,32 @@
+h4 {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+footer {
+    font-size: 10px;
+}
+
+footer span {
+    color: red;
+}
+
+.mainPage {
+    margin-top: 10px;
+}
+
+.pages {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagesProducts {
+    margin: 10px 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    width: 20px;
+}
