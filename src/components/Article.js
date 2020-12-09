@@ -1,12 +1,9 @@
 import React from "react";
 
 const Article = ({title, author, text}) => {
-    const styles = {
-        marginTop: "40px"
-    };
 
     return (
-        <article style={styles}>
+        <article>
             <h3 style={{
                 fontSize: "20px",
                 marginBottom: "3px",
