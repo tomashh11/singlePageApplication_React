@@ -12,12 +12,12 @@ const Page = () => {
     return (
         <>
             <Switch>
-                <Route path="/" exact component={HomePage}/>
-                <Route path="/contact" component={ContactPage}/>
-                <Route path="/products" component={ProductListPage}/>
-                <Route path="/product/:id" component={ProductPage}/>
-                <Route path="/admin" component={AdminPage}/>
-                <Route path="/login" component={LoginPage}/>
+                <Route path={`${window.location.pathname}/`} exact component={HomePage}/>
+                <Route path={`${window.location.pathname}contact`} component={ContactPage}/>
+                <Route path={`${window.location.pathname}products`} component={ProductListPage}/>
+                <Route path={`${window.location.pathname}product/:id`} component={ProductPage}/>
+                <Route path={`${window.location.pathname}admin`} component={AdminPage}/>
+                <Route path={`${window.location.pathname}login`} component={LoginPage}/>
                 <Route component={ErrorPage}/>
             </Switch>
         </>
