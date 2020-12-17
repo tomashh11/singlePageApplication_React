@@ -1,12 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import "../styles/ProductListPage.css";
+import {ROUTES} from '../routes';
 
 const products = ["car", "bike", "motorcycle"];
 
 const list = products.map(product => (
     <li key={product}>
-        <Link to={`/product/${product}`}>{product}</Link>
+        <Link to={`${ROUTES.product}/${product}`}>{product}</Link>
     </li>
 ));
 

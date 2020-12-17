@@ -1,12 +1,13 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import "../styles/Navigation.css";
+import {ROUTES} from '../routes';
 
 const list = [
-    {name: "start", path: "/", exact: true},
-    {name: "produkty", path: "products"},
-    {name: "kontakt", path: "contact"},
-    {name: "panel admina", path: "admin"}
+    {name: "start", path: `${ROUTES.home}`, exact: true},
+    {name: "produkty", path: `${ROUTES.products}`},
+    {name: "kontakt", path: `${ROUTES.contact}`},
+    {name: "panel admina", path: `${ROUTES.admin}`}
 ];
 
 const Navigation = () => {

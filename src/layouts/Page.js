@@ -7,17 +7,18 @@ import ProductPage from "../pages/ProductPage";
 import AdminPage from "../pages/AdminPage";
 import ErrorPage from "../pages/ErrorPage";
 import LoginPage from "../pages/LoginPage";
+import {ROUTES} from "../routes";
 
 const Page = () => {
     return (
         <>
             <Switch>
-                <Route path={`${window.location.pathname}/`} exact component={HomePage}/>
-                <Route path={`${window.location.pathname}contact`} component={ContactPage}/>
-                <Route path={`${window.location.pathname}products`} component={ProductListPage}/>
-                <Route path={`${window.location.pathname}product/:id`} component={ProductPage}/>
-                <Route path={`${window.location.pathname}admin`} component={AdminPage}/>
-                <Route path={`${window.location.pathname}login`} component={LoginPage}/>
+                <Route path={`${ROUTES.home}`} exact component={HomePage}/>
+                <Route path={`${ROUTES.contact}`} component={ContactPage}/>
+                <Route path={`${ROUTES.products}`} component={ProductListPage}/>
+                <Route path={`${ROUTES.product}/:id`} component={ProductPage}/>
+                <Route path={`${ROUTES.admin}`} component={AdminPage}/>
+                <Route path={`${ROUTES.login}`} component={LoginPage}/>
                 <Route component={ErrorPage}/>
             </Switch>
         </>

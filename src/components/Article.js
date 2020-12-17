@@ -1,6 +1,6 @@
 import React from "react";
 
-const Article = ({title, author, text}) => {
+const Article = (props) => {
 
     return (
         <article>
@@ -8,15 +8,15 @@ const Article = ({title, author, text}) => {
                 fontSize: "20px",
                 marginBottom: "3px",
                 textTransform: "uppercase"
-            }}>{title}</h3>
+            }}>{props.title}</h3>
             <span style={{
                 fontSize: "12px",
                 display: "block",
                 marginBottom: "10px",
-            }}>{author}</span>
+            }}>{props.author}</span>
             <p style={{
                 fontSize: "14px"
-            }}>{text}</p>
+            }}>{props.text}</p>
         </article>
     )
 };
