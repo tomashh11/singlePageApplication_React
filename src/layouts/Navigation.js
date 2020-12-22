@@ -4,7 +4,7 @@ import "../styles/Navigation.css";
 import {ROUTES} from '../routes';
 
 const list = [
-    {name: "start", path: `${ROUTES.home}`, exact: true},
+    {name: "start", path: ".", exact: true},
     {name: "produkty", path: `${ROUTES.products}`},
     {name: "kontakt", path: `${ROUTES.contact}`},
     {name: "panel admina", path: `${ROUTES.admin}`}
