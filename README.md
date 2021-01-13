@@ -1,7 +1,7 @@
 # SPA
 
 ## PL
-### Applikacja stworzona dla rozdzielczości 1440x788.  
+### Aplikacja stworzona dla rozdzielczości 1440x788.  
 Prosta "**single page application**".
 
 
