@@ -1,4 +1,4 @@
-# SPA
+# SPA_React
 
 ## PL
 ### Aplikacja stworzona dla rozdzielczości 1440x788.  
